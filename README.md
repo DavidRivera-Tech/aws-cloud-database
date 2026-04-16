@@ -39,7 +39,7 @@ A connection was established using MySQL Workbench, where SQL commands were exec
 
 The diagram below illustrates the architecture used in this project. A user connects from a local machine to an Amazon RDS MySQL database instance over port 3306. Access is controlled through an AWS Security Group that restricts inbound traffic to a specific IP address.
 
-![AWS RDS Architecture](https://chatgpt.com/c/architecture/aws-rds-architecture-diagram.png)
+![AWS RDS Architecture](architecture/aws-rds-architecture-diagram.png)
 
 ## Screenshots
 
@@ -47,25 +47,25 @@ The diagram below illustrates the architecture used in this project. A user conn
 
 Shows the deployed RDS database instance with status available.
 
-![RDS Database](https://chatgpt.com/c/screenshots/rds-database-created.png)
+![RDS Database](screenshots/rds-database-created.png)
 
 ### 2. Database Configuration
 
 Shows the database endpoint, port, networking configuration, and public accessibility settings.
 
-![RDS Configuration](https://chatgpt.com/c/screenshots/rds-configuration.png)
+![RDS Configuration](screenshots/rds-configuration.png)
 
 ### 3. Security Group Configuration
 
 Shows the inbound rule allowing MySQL access on port 3306 from a specific IP address.
 
-![Security Group](https://chatgpt.com/c/screenshots/security-group-mysql.png)
+![Security Group](screenshots/security-group-mysql.png)
 
 ### 4. SQL Query Result
 
 Shows successful execution of SQL commands including table creation, data insertion, and data retrieval.
 
-![SQL Query Result](https://chatgpt.com/c/screenshots/sql-query-result.png)
+![SQL Query Result](screenshots/sql-query-result.png)
 
 ## Repository Structure
 
